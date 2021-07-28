@@ -1,0 +1,31 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-bg{
+    background-color: #264653;
+}
+.button-style{
+    background: #E76F51;
+}
+.gray-image{
+    filter:grayscale(80%);
+}
+.highlited-heading{
+    color: #E76F51;
+}
+.client-name{
+    color: #23A6F0;
+    font-weight: 600;
+}
+.fa-star{
+    color: #E77C40;
+}
+/* bootstrap overriding for custom Accridion */
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
