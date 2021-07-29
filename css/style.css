@@ -23,6 +23,9 @@ body{
     color: #23A6F0;
     font-weight: 600;
 }
+.client-img{
+    border: 1px solid #BDBDBD;
+}
 .fa-star{
     color: #E77C40;
 }
