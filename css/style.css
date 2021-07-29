@@ -29,6 +29,9 @@ body{
     background-color: transparent;
     box-shadow: none;
 }
+.btn:focus{
+    box-shadow: none;
+}
 .icon-font{
     font-size: 4.5rem;
 }
