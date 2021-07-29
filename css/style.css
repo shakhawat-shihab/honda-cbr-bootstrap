@@ -3,7 +3,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+/* common classes */
 .header-bg{
     background-color: #264653;
 }
@@ -16,12 +16,21 @@ body{
 .highlited-heading{
     color: #E76F51;
 }
+.text-justify{
+    text-align: justify;
+}
 .client-name{
     color: #23A6F0;
     font-weight: 600;
 }
 .fa-star{
     color: #E77C40;
+}
+.icon-font{
+    font-size: 4.5rem;
+}
+.bg-footer{
+    background-color: #0B0D17;
 }
 /* bootstrap overriding for custom Accridion */
 .accordion-button:not(.collapsed){
@@ -31,7 +40,4 @@ body{
 }
 .btn:focus{
     box-shadow: none;
-}
-.icon-font{
-    font-size: 4.5rem;
 }
