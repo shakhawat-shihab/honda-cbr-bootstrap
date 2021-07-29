@@ -32,6 +32,16 @@ body{
 .bg-footer{
     background-color: #0B0D17;
 }
+/* some hover effect */
+.service-element:hover{
+    transform: scale(1.02,1.02);
+    transition: transform 0.8s ease-in;
+}
+.button-style:hover{
+    transform: scale(1.05,1.05);
+    transition: transform 0.4s ease-out;
+}
+
 /* bootstrap overriding for custom Accridion */
 .accordion-button:not(.collapsed){
     color: black;
