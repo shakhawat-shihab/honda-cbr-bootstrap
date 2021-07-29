@@ -10,6 +10,10 @@ body{
 .button-style{
     background: #E76F51;
 }
+.outline-button-style{
+    border-color: #E76F51 ;
+    color:#E76F51  ;
+}
 .gray-image{
     filter:grayscale(80%);
 }
@@ -35,6 +39,7 @@ body{
 .bg-footer{
     background-color: #0B0D17;
 }
+
 /* some hover effect */
 .service-element:hover{
     transform: scale(1.02,1.02);
@@ -44,6 +49,12 @@ body{
     transform: scale(1.05,1.05);
     transition: transform 0.4s ease-out;
 }
+.outline-button-style:hover{
+    color:#E76F51 ;
+    transform: scale(1.05,1.05);
+    transition: transform 0.4s ease-out;
+}
+
 
 /* bootstrap overriding for custom Accridion */
 .accordion-button:not(.collapsed){
